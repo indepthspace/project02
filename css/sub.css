@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+:root{
+  --main-color : #5D5D5D;
+  --sub-color : #808080;
+  --base-color : #6BD7FF;
+}
+
+/* guide */
+
+#guide{
+  text-align: center;
+}
+#guide .g-img{
+  padding-top: 200px;
+}
+#guide .g h1{
+  font-size: 8rem;
+  padding-top: 80px;
+}
+#guide .g h2{
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 30px 0 100px 0;
+}
+#guide .g-txt{
+  padding: 50px 0;
+  font-weight: 600;
+  font-size: 3rem;
+}
+#guide .g-txt2{
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom:100px;
+}
+
+footer{
+  padding-top: 100px;
+}
+
+@media (max-width: 1024px){
+  #guide .g-img img{
+    width: 90%;
+  }
+  #guide .g h1{
+    font-size: 6rem;
+  }
+  #guide .g-set img{
+    width: 90%;
+  }
+  #guide .g-txt{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 765px){
+  #guide .g-txt{
+    font-size: 2rem;
+  }
+  #guide .g-txt2{
+    font-size: 1.7rem;
+  }
+
+}
+
+
+/* service */
+#service{
+  text-align: center;
+}
+#service .s-img{
+  padding-top: 200px;
+}
+#service .s h1{
+  font-size: 8rem;
+  padding-top: 80px;
+}
+#service .s h2{
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 30px 0 100px 0;
+}
+
+.service-img{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
+.service-img2{
+  padding-top: 300px;
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
+.service-txt {
+  font-size: 2.5rem;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 398px;
+}
+.s3{
+  padding-right: 100px;
+}
+.service-txt2{
+  font-size: 2.5rem;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 480px;
+  padding-bottom: 150px;
+}
+
+.service-gray{
+  margin: auto;
+  width: 87%;
+  padding: 440px 0;
+  background-color: #EFEFEF;
+}
+
+.s-bold{
+  position: absolute;
+  top: 404%;
+  left: 6%;
+  padding-left: 100px;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.s-medium1, .s-medium2, .s-medium3{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.s-light1, .s-light2, .s-light3{
+  font-size: 2.5rem;
+}
+.s-medium1{
+  position: absolute;
+  top: 406%;
+  left: 40%;
+}
+.s-light1{
+  position: absolute;
+  top: 414%;
+  left: 40%;
+}
+.s-medium2{
+  position: absolute;
+  top: 428%;
+  left: 40%;
+}
+.s-light2{
+  position: absolute;
+  top: 435%;
+  left: 40%;
+}
+.s-medium3{
+  position: absolute;
+  top: 465%;
+  left: 40%;
+}
+.s-light3{
+  position: absolute;
+  top: 470%;
+  left: 40%;
+}
+
+@media (max-width: 1024px){
+  #service .s-img img{
+    width: 90%;
+  }
+  #service  .s h1{
+    font-size: 6rem;
+  }
+  #service .service-img img, #service .service-img2 img{
+    width: 300px;
+    height: 300px;
+  }
+  .service-img, .service-img2{
+    gap: 20px;
+  }
+  .service-txt{
+    font-size: 2rem;
+    gap: 170px;
+  }
+  .service-txt2{
+    font-size: 2rem;
+    gap: 257px;
+  }
+    
+ .service-gray{
+    width: 95%;
+    padding: 380px 0;
+  }
+    
+  .s-bold{
+    top: 304%;
+    left: -1%;
+    padding-left: 100px;
+    font-size: 3rem;
+  }
+  .s-medium1, .s-medium2, .s-medium3{
+    font-size: 2rem;
+  }
+  .s-light1, .s-light2, .s-light3{
+    font-size: 1.8rem;
+  }
+  .s-medium1{
+    top: 305%;
+    left: 35%;
+  }
+  .s-light1{
+    top: 312%;
+    left: 35%;
+  }
+  .s-medium2{
+    top: 325%;
+    left: 35%;
+  }
+  .s-light2{
+    top: 332%;
+    left: 35%;
+  }
+  .s-medium3{
+    top: 357%;
+    left: 35%;
+  }
+  .s-light3{
+    top: 365%;
+    left: 35%;
+  }
+
+
+
+}
+
+@media (max-width: 765px){
+   #service .service-img img, #service .service-img2 img{
+    width: 220px;
+    height: 220px;
+  }
+  .service-img, .service-img2{
+    gap: 10px;
+  }
+  .service-txt{
+    font-size: 1.5rem;
+    gap: 115px;
+  }
+  .service-txt2{
+    font-size: 1.5rem;
+    gap: 180px;
+  }
+  .s3{
+    padding-right: 50px;
+  }
+
+   .service-gray{
+    width: 91%;
+    padding: 330px 0;
+  }
+    
+  .s-bold{
+    font-size: 2.5rem;
+    top: 272%;
+    left: -3%;
+  }
+  .s-medium1, .s-medium2, .s-medium3{
+    font-size: 1.8rem;
+  }
+  .s-light1, .s-light2, .s-light3{
+    font-size: 1.4rem;
+  }
+  .s-medium1{
+    top: 273%;
+    left: 33%;
+  }
+  .s-light1{
+    top: 280%;
+    left: 33%;
+  }
+  .s-medium2{
+    top: 290%;
+    left: 33%;
+  }
+  .s-light2{
+    top: 297%;
+    left: 33%;
+  }
+  .s-medium3{
+    top: 319%;
+    left: 33%;
+  }
+  .s-light3{
+    top: 324%;
+    left: 33%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+}
+
+
+

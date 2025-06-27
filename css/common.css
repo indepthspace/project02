@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+:root{
+  --main-color : #5D5D5D;
+  --sub-color : #808080;
+  --base-color : #6BD7FF;
+}
+
+/* header */
+header{
+  width: 100%;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  z-index: 999;
+}
+
+header .inner{
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  position: relative; 
+  z-index: 9999;
+  padding-left: 50px;
+}
+
+header h1 a{
+  display: block;
+  width: 170px;
+  height: 48px;
+  background: url(../img/pclogo.png) no-repeat center / 100% auto;
+  font-size: 0;
+}
+
+nav {
+  display: flex;
+}
+
+header .gnb{
+  display: flex;
+}
+
+header .gnb > li > a{
+  color: #fff;
+  font-weight: 400;
+  font-size: 2rem;
+  display: block;
+  padding: 20px 40px;
+}
+
+header.act .gnb > li > a{
+ color: #000;
+}
+
+.utill{
+  cursor: pointer;
+  display: flex;
+  padding-top: 15px;
+  padding-left: 15px;
+  gap: 50px;
+}
+
+.utill .cal, .utill .person{
+  color: #fff;
+  font-size: 30px;
+}
+
+header.act .utill .cal, header.act .utill .person{
+  color: #000;
+}
+
+.utill .btn-search, .utill .la{
+  color: #fff;
+  font-size: 35px;
+}
+
+header.act .utill .btn-search, header.act .utill .la{
+  color: #000;
+  cursor: pointer;
+}
+
+.ham{
+  display: none;
+  font-size: 42px;
+  color: #fff;
+} 
+
+header.act .ham{
+  color: #000;
+}
+
+
+
+@media (max-width: 1024px){
+  header h1 a{
+    width: 130px;
+    height: 48px;
+    background: url(../img/pclogo.png) no-repeat center / 100% auto;
+  }
+
+  header .gnb > li > a{
+    padding: 20px 20px;
+  }
+  .ham{
+    display: none;
+  }
+}
+
+@media (max-width: 765px){
+  header .gnb{
+    display: none;
+  }
+  .btn-search{
+    display: none;
+  }
+  .person{
+    display: none;
+  }
+  .la{
+    display: none;
+  }
+  .ham{
+    display: block;
+  }
+}
+
+/* footer */
+
+footer{
+  font-size: 2.5rem;
+  position: relative;
+  left: 3%;
+  padding-top: 1100px;
+}
+
+.f-link{
+  border-top: 2px solid #dddddd;
+  padding: 70px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.f-link li a{
+  text-decoration: underline;
+}
+.f-link .no a{
+  text-decoration: none;
+}
+
+.ad{
+  padding-bottom: 18px;
+}
+
+footer .f-sns{
+  display: flex;
+  gap: 25px;
+}
+
+footer .f-sns img{
+  width: 38px;
+  height: 38px;
+}
+
+footer .call{
+  font-size: 4rem;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+footer .copy{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #808080;
+}
+.f-sns{
+  padding-top: 50px;
+}
+
+footer .f-sns .kakao{
+  width: 40px;
+  height: 45px;
+  padding-top: 5px;
+}
+footer .f-sns .ins{
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 1024px){
+  footer .inner{
+    padding-left: 10px;
+  }
+
+  footer{
+    left: 3%;
+    padding-top: 2300px;
+  }
+}
+
+@media (max-width: 765px){
+  footer{
+    font-size: 2rem;
+    padding-top: 2100px;
+  }
+}
+

@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+:root{
+  --main-color : #5D5D5D;
+  --sub-color : #808080;
+  --base-color : #6BD7FF;
+}
+
+body{
+  font-family : "Inter", sans-serif, "Pacifico", cursive;
+  font-size: 1.6rem;
+}
+
+main{
+  text-align: center;
+}
+#dinner .d h1{
+  padding-bottom: 100px;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+#dinner .d , #dinner .b{
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+
+.d-img img{
+  padding-bottom: 100px;
+}
+
+.d-txt{ 
+  margin: 0 auto;
+  width: 78%;
+  background-color: #EFEFEF;
+  padding: 270px 0;
+}
+
+.d-set{
+  text-align: left;
+  position: absolute;
+  top: 220%;
+  left: 40%;
+}
+.d-set2{
+  display: flex;
+}
+.d-set3{
+  text-align: left;
+  position: absolute;
+  top: 240%;
+  left: 40%;
+}
+
+.chef{
+  padding-left: 80px;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
+  top: 220%;
+  left: 11%;
+}
+.c-txt{
+  padding-left: 80px;
+  font-size: 2rem;
+  text-align: left;
+  position: absolute;
+  top: 235%;
+  left: 11%;
+}
+
+.menu1{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.menu2{
+  font-size: 2.5rem;
+  padding-top: 20px;
+}
+.food{
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 24px;
+  padding-left: 50px;
+}
+
+.b-img img{
+  padding-bottom: 100px;
+}
+
+.chef01{
+  padding-left: 80px;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
+  top: 426%;
+  left: 11%;
+}
+.c-txt01{
+  padding-left: 80px;
+  font-size: 2rem;
+  text-align: left;
+  position: absolute;
+  top: 442%;
+  left: 11%;
+}
+
+.b-txt{
+  margin: 0 auto;
+  width: 78%;
+  background-color: #EFEFEF;
+  padding: 300px 0;
+}
+
+.b-set{
+  text-align: left;
+  position: absolute;
+  top: 426%;
+  left: 40%;
+}
+.b-set2{
+  display: flex;
+}
+
+.b-set3{
+  text-align: left;
+  position: absolute;
+  top: 440%;
+  left: 40%;
+}
+
+footer{
+  top: 0px;
+}
+
+@media (max-width: 1024px){
+ .d-img img{
+    width: 95%;
+ }
+
+ .d-txt{ 
+    width: 95%;
+    padding: 270px 0;
+  }
+
+ .chef{
+    font-size: 2.3rem;
+    top: 180%;
+    left: -1%;
+  }
+
+ .d-set{
+    top: 180%;
+    left: 31%;
+  }
+  .menu1{
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .menu2{
+    font-size: 1.8rem;
+    padding-top: 20px;
+  }
+  .food{
+    font-size: 1.6rem;
+  }
+  .c-txt{
+    padding-left: 80px;
+    font-size: 1.4rem;
+    top: 192%;
+    left: -1%;
+  }
+  .d-set3{
+    top: 200%;
+    left: 31%;
+  }
+
+
+  .b-img img{
+    width: 95%;
+  }
+
+  .chef01{
+    font-size: 2.3rem;
+    top: 348%;
+    left: -1%;
+  }
+
+  .c-txt01{
+    font-size: 1.4rem;
+    top: 360%;
+    left: -1%;
+  }
+
+  .b-txt{
+    width: 95%;
+    padding: 270px 0;
+  }
+
+  .b-set{
+    top: 350%;
+    left: 40%;
+  }
+
+  .b-set3{
+    top: 362%;
+    left: 40%;
+  }
+}
+
+@media (max-width: 765px){
+ .d-img img{
+    width: 90%;
+ }
+
+ .d-txt{ 
+    width: 90%;
+    padding: 220px 0;
+  }
+
+ .chef{
+    font-size: 2rem;
+    top: 158%;
+    left: -1%;
+  }
+
+ .d-set{
+    top: 158%;
+    left: 38%;
+  }
+  .menu1{
+    font-size: 1.2rem;
+  }
+  .menu2{
+    font-size: 1.2rem;
+  }
+  .food{
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .c-txt{
+    font-size: 1.3rem;
+    top: 169%;
+    left: -1%;
+  }
+  .d-set3{
+    top: 178%;
+    left: 38%;
+  }
+
+
+  .b-img img{
+    width: 90%;
+  }
+
+  .chef01{
+    font-size: 2rem;
+    top: 293%;
+    left: -1%;
+  }
+
+  .c-txt01{
+    font-size: 1.3rem;
+    top: 304%;
+    left: -1%;
+  }
+
+  .b-txt{
+    width: 90%;
+    padding: 220px 0;
+  }
+
+  .b-set{
+    top: 293%;
+    left: 40%;
+  }
+
+  .b-set3{
+    top: 310%;
+    left: 40%;
+  }
+
+}

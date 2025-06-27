@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+:root{
+  --main-color : #5D5D5D;
+  --sub-color : #808080;
+  --base-color : #6BD7FF;
+}
+
+body{
+  font-family : "Inter", sans-serif, "Pacifico", cursive;
+  font-size: 1.6rem;
+}
+
+#space{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#space .mim h1{
+  padding: 100px 0;
+}
+
+#space h1{
+  text-transform: capitalize;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+#space .s-img{
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.o-txt, .r-txt{
+  padding: 150px 0 20px 0;
+  font-size: 2rem;
+}
+
+.o-txt1{
+  padding-top: 70px;
+  font-size: 2.5rem;
+}
+
+#space .outside h1{
+  padding-bottom: 80px;
+}
+
+.roomtype .rt-set1{
+  display: flex;
+  padding-top: 100px;
+  margin: 0 60px;
+}
+
+.roomtype .rt-set1 .set1-01{
+  width: 30%;
+  background-color: #EFEFEF;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+}
+.roomtype .rt-set1 .set1-02{
+  width: 70%;
+}
+
+.roomtype .rt-set1 .set1-02 .swiper{
+  height: 570px;
+}
+
+.roomtype .rt-set1 .set1-02 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#space .roomtype h1{
+  padding-bottom: 0px;
+}
+
+
+.roomtype .rt-txt1{
+  text-align: left;
+  position: absolute;
+  top: 527%;
+  left: 7%;
+}
+
+.rt-txt1 h2{
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.rt-txt1 h6{
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 60px 0;
+}
+
+.rt-txt1 .p-s{
+  font-size: 3rem;
+}
+
+
+
+.roomtype .rt-txt2{
+  text-align: left;
+  position: absolute;
+  top: 738%;
+  left: 7%;
+}
+
+.rt-txt2 h2{
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.rt-txt2 h6{
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 60px 0;
+}
+
+.rt-txt2 .p-s{
+  font-size: 3rem;
+}
+
+footer{
+  top: 0px;
+}
+
+
+@media (max-width: 1024px){
+  .mim img{
+    width: 80%;
+  }
+  .outside img{
+    width: 80%;
+  }
+  .o-txt1{
+    padding-top: 40px;
+    font-size: 1.7rem;
+  }
+
+  .roomtype .rt-set1 .set1-01{
+    width: 50%;
+  
+  }
+  .roomtype .rt-set1 .set1-02 .swiper{
+    height: 350px;
+  }
+
+}
+
+@media (max-width: 765px){
+ 
+
+}
